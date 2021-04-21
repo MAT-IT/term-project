@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Amblem from './head/amblem';
+import Searchform from './head/Searchform';
 
 function App() {
   return (
     <div className="App">
-        <Amblem/>
+       <header className="App-header">
+          <Amblem />
+          <Searchform/>
+       </header> 
     </div>
   );
 }
