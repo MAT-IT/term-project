@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function Singin() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default class Singin extends Component {
+    render() {
+        return (
+            <div className="singin">
+                Sing In
+            </div>
+        )
+    }
 }
