@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mat-it.github.io/term-project/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/mat-it.github.io/term-project/static/js/main.258c8097.chunk.js",
-    "main.js.map": "/mat-it.github.io/term-project/static/js/main.258c8097.chunk.js.map",
-    "runtime-main.js": "/mat-it.github.io/term-project/static/js/runtime-main.7e4cbe0c.js",
-    "runtime-main.js.map": "/mat-it.github.io/term-project/static/js/runtime-main.7e4cbe0c.js.map",
-    "static/js/2.443c5dd6.chunk.js": "/mat-it.github.io/term-project/static/js/2.443c5dd6.chunk.js",
-    "static/js/2.443c5dd6.chunk.js.map": "/mat-it.github.io/term-project/static/js/2.443c5dd6.chunk.js.map",
-    "static/js/3.7df97451.chunk.js": "/mat-it.github.io/term-project/static/js/3.7df97451.chunk.js",
-    "static/js/3.7df97451.chunk.js.map": "/mat-it.github.io/term-project/static/js/3.7df97451.chunk.js.map",
-    "index.html": "/mat-it.github.io/term-project/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/mat-it.github.io/term-project/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.443c5dd6.chunk.js.LICENSE.txt": "/mat-it.github.io/term-project/static/js/2.443c5dd6.chunk.js.LICENSE.txt"
+    "main.css": "/term-project/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/term-project/static/js/main.258c8097.chunk.js",
+    "main.js.map": "/term-project/static/js/main.258c8097.chunk.js.map",
+    "runtime-main.js": "/term-project/static/js/runtime-main.b3676022.js",
+    "runtime-main.js.map": "/term-project/static/js/runtime-main.b3676022.js.map",
+    "static/js/2.443c5dd6.chunk.js": "/term-project/static/js/2.443c5dd6.chunk.js",
+    "static/js/2.443c5dd6.chunk.js.map": "/term-project/static/js/2.443c5dd6.chunk.js.map",
+    "static/js/3.7df97451.chunk.js": "/term-project/static/js/3.7df97451.chunk.js",
+    "static/js/3.7df97451.chunk.js.map": "/term-project/static/js/3.7df97451.chunk.js.map",
+    "index.html": "/term-project/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/term-project/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.443c5dd6.chunk.js.LICENSE.txt": "/term-project/static/js/2.443c5dd6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e4cbe0c.js",
+    "static/js/runtime-main.b3676022.js",
     "static/js/2.443c5dd6.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.258c8097.chunk.js"
