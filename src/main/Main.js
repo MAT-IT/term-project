@@ -93,7 +93,7 @@ export default function Main() {
                       Heading
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      you can find  a lot of useful documant here !!!
                     </Typography>
                   </CardContent>
                   
