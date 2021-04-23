@@ -18,6 +18,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from '@material-ui/icons/Home';
 import SchoolIcon from '@material-ui/icons/School';
 
+
 const drawerWidth = 200;
 
 const useStyles = makeStyles((theme) => ({
@@ -112,6 +113,8 @@ export default function PersistentDrawerLeft() {
           <Typography variant="h6" noWrap>
            HOME LEARNING
           </Typography>
+         
+
         </Toolbar>
       </AppBar>
       <Drawer
