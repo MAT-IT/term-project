@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState} from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -81,15 +81,11 @@ const useStyles = makeStyles((theme) => ({
 export default function PersistentDrawerLeft() {
   const classes = useStyles();
   const theme = useTheme();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
-  const handleDrawerOpen = () => {
-    setOpen(true);
-  };
+ 
 
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
+  
 
   return (
     <div className={classes.root}>
@@ -104,7 +100,7 @@ export default function PersistentDrawerLeft() {
           <IconButton
             color="inherit"
             aria-label="open drawer"
-            onClick={handleDrawerOpen}
+            onClick={()=> setOpen(true)}
             edge="start"
             className={clsx(classes.menuButton, open && classes.hide)}
           >
@@ -127,20 +123,23 @@ export default function PersistentDrawerLeft() {
         }}
       >
         <div className={classes.drawerHeader}>
-          <IconButton onClick={handleDrawerClose}>
+          <IconButton onClick={()=> setOpen(false)}>
             {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
         </div>
         <Divider />
         <List>
           {['Home', 'Math', 'Science', 'History'].map((text, index) => (
-            <ListItem button key={text}>
+           <>
+           <ListItem button key={text}>
               <ListItemIcon>{index  === 0 ? <HomeIcon /> : <SchoolIcon />}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
+            <Divider/>
+            </>
           ))}
         </List>
-        <Divider/>       
+             
       </Drawer>
       
     </div>
