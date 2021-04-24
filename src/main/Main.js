@@ -48,8 +48,7 @@ export default function Main() {
 
   return (
     <React.Fragment>
-      <CssBaseline />
-         
+      <CssBaseline />        
         
       <main >
         {/* Hero unit */}
@@ -93,7 +92,7 @@ export default function Main() {
                       Heading
                     </Typography>
                     <Typography>
-                      you can find  a lot of useful documant here !!!
+                      you can find  a lot of useful documants here !!!
                     </Typography>
                   </CardContent>
                   
