@@ -140,23 +140,9 @@ export default function PersistentDrawerLeft() {
             </ListItem>
           ))}
         </List>
-        <Divider />
-        {/* <List>
-          {['All mail', 'Trash', 'Spam'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List> */}
+        <Divider/>       
       </Drawer>
-      {/* <main
-        className={clsx(classes.content, {
-          [classes.contentShift]: open,
-        })}
-      >
-        
-      </main> */}
+      
     </div>
   );
 }
