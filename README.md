@@ -2,6 +2,7 @@
     @material-ui/core 
     @material-ui/icons 
     react-router-dom 
+    gh-pages
     
     
  -->
