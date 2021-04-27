@@ -129,7 +129,7 @@ export default function PersistentDrawerLeft() {
         </div>
         <Divider />
         <List>
-          {['Home', 'Math', 'Science', 'History'].map((text, index) => (
+          {['Home', 'Math', 'Science', 'History','Geografy','physic','chemistry'].map((text, index) => (
            <>
            <ListItem button key={text}>
               <ListItemIcon>{index  === 0 ? <HomeIcon /> : <SchoolIcon />}</ListItemIcon>
