@@ -4,7 +4,7 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+import {Toolbar , Button} from '@material-ui/core';
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
@@ -17,6 +17,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from '@material-ui/icons/Home';
 import SchoolIcon from '@material-ui/icons/School';
+
 
 
 const drawerWidth = 200;
@@ -76,6 +77,7 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginLeft: 0,
   },
+ 
 }));
 
 export default function PersistentDrawerLeft() {
@@ -109,7 +111,9 @@ export default function PersistentDrawerLeft() {
           <Typography variant="h6" noWrap>
            HOME LEARNING
           </Typography>
-         
+          <Button  color="inherit">Sing in</Button>
+          <Button  color="inherit">Log in</Button>
+          
 
         </Toolbar>
       </AppBar>
