@@ -111,7 +111,7 @@ export default function PersistentDrawerLeft() {
           <Typography variant="h6" noWrap>
            HOME LEARNING
           </Typography>
-          <Button  color="inherit">Sing in</Button>
+          <Button marginright="0" color="inherit">Sing in</Button>
           <Button  color="inherit">Log in</Button>
           
 
