@@ -1,13 +1,18 @@
 <!------ used packages------
     @material-ui/core 
     @material-ui/icons 
-    react-router-dom 
+    
     gh-pages
     card image="https://source.unsplash.com/random"
-    
-    
+     
  -->
-
+<!--   YAPILACAKLAR
+1-GLOBAL STATE MANAGEMENT
+2-react-router-dom
+3-SING IN - LOG IN 
+4-SEARCHING BUTTON 
+5-DERSLERE OBJE OLUSTUR ; KEYWORD ILE API REQUEST YAP
+ -->
 
 
 # Getting Started with Create React App
