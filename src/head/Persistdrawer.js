@@ -115,7 +115,7 @@ export default function PersistentDrawerLeft() {
            HOME LEARNING
           </Typography>
           
-          <Button onclick={()=>setsingin} color="inherit">Sing in</Button>
+          <Button color="inherit">Sing in</Button>
           <Button  color="inherit">Log in</Button>
           
 
