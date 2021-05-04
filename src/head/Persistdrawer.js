@@ -17,7 +17,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from '@material-ui/icons/Home';
 import SchoolIcon from '@material-ui/icons/School';
-
+import SingIn from './SingIn'
 
 
 const drawerWidth = 200;
@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
+    
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -84,6 +85,8 @@ export default function PersistentDrawerLeft() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = useState(false);
+  
+  
 
  
 
@@ -111,7 +114,8 @@ export default function PersistentDrawerLeft() {
           <Typography variant="h6" noWrap>
            HOME LEARNING
           </Typography>
-          <Button marginright="0" color="inherit">Sing in</Button>
+          
+          <Button onclick={()=>setsingin} color="inherit">Sing in</Button>
           <Button  color="inherit">Log in</Button>
           
 
