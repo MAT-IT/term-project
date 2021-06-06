@@ -25,6 +25,7 @@ const drawerWidth = 200;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    justifyContent: 'space-between'
   },
   appBar: {
     
@@ -39,10 +40,16 @@ const useStyles = makeStyles((theme) => ({
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
+      
     }),
   },
   menuButton: {
     marginRight: theme.spacing(2),
+    
+  },
+  logIn: {
+    marginLeft: theme.spacing(2),
+    
   },
   hide: {
     display: 'none',
@@ -115,8 +122,8 @@ export default function PersistentDrawerLeft() {
            HOME LEARNING
           </Typography>
           
-          <Button color="inherit">Sing in</Button>
-          <Button  color="inherit">Log in</Button>
+          
+          <Button className={classes.logIn}  color="inherit">Log in</Button>
           
 
         </Toolbar>
